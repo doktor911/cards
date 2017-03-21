@@ -13,13 +13,11 @@ namespace CardsExplain
             Deck deck = new Deck();
 
             deck.PrintOnConsole();
-
-
+          
             deck.ShuffleCards();
 
             Console.WriteLine();
             deck.PrintOnConsole();
-
             Console.Read();
         }
     }
